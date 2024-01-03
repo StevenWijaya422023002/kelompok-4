@@ -1,2 +1,4 @@
 Algorthims                         Time Complexity
 -Karatsuba                         -O(n²)
+-Bubble Sort                       -O(n²)
+-Quick Sort                        -O(nlogn)
