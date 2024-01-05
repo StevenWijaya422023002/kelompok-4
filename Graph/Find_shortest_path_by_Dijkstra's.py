@@ -1,4 +1,5 @@
 import heapq
+import time
 
 def dijkstra(graph, start):
     distances = {node: float('infinity') for node in graph}
@@ -28,8 +29,15 @@ graph = {
 }
 
 start_node = 'A'
+
+start_time = time.time()
 result = dijkstra(graph, start_node)
+end_time = time.time()
+
+execution_time = end_time - start_time
 
 print(f"Jarak terpendek dari {start_node}:")
 for node, distance in result.items():
     print(f"{node}: {distance}")
+
+print(f"Durasi eksekusi: {execution_time} detik")
