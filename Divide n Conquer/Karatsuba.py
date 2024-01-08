@@ -20,7 +20,7 @@ def karatsuba(x, y):
 start_time = timeit.default_timer()
 
 
-result = karatsuba(3876, 4567)
+result = karatsuba(8888, 9898)
 
 
 end_time = timeit.default_timer()
