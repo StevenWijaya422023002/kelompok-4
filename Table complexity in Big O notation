@@ -1,3 +1,3 @@
 Algorthims                         Time Complexity
--Karatsuba                         -O(n²)
+-Karatsuba                         -O(n^log2^3 )
 -Find shortest path by dijkstra    -O((V + E)log V)
