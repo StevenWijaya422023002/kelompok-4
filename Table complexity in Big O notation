@@ -1,3 +1,6 @@
 Algorthims                         Time Complexity
 -Karatsuba                         -O(n^log2^3 )
 -Find shortest path by dijkstra    -O((V + E)log V)
+-Karatsuba                         -O(n²)
+-Bubble Sort                       -O(n²)
+-Quick Sort                        -O(nlogn)
