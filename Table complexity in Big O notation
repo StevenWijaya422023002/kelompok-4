@@ -1,2 +1,9 @@
 Algorthims                         Time Complexity
--Karatsuba                         -O(n²)
+-Karatsuba                         -O(n^log2^3 )
+-Find shortest path by dijkstra    -O((V + E)log V)
+-Bubble Sort                       -O(n²)
+-Quick Sort                        -O(nlogn)
+-linear search                     -O(n)
+-binary search                     -O(log n)
+-Sentinel Linear Search            -O(n)
+-Fibonacci search                  -O(log n)
