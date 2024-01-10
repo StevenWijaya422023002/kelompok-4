@@ -39,7 +39,7 @@ def fibonacci_search(arr, target):
     elapsed_time = (timeit.default_timer() - start_time) * 1000  # Konversi ke milidetik
     return f"Target {target} tidak ditemukan dalam array\nWaktu eksekusi: {elapsed_time} milidetik"
 
-# Contoh penggunaan
+
 array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 target_value = 5
 result = fibonacci_search(array, target_value)

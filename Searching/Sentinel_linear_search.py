@@ -16,7 +16,7 @@ def sentinel_search(arr, target):
     else:
         return f"Target {target} tidak ditemukan dalam array\nWaktu eksekusi: {elapsed_time} detik"
 
-# Contoh penggunaan
+
 array = [1, 2, 3, 4, 5]
 target_value = 3
 
