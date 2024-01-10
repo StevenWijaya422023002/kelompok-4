@@ -30,6 +30,7 @@ graph = {
 
 start_node = 'A'
 
+#time complexity
 start_time = time.time()
 result = dijkstra(graph, start_node)
 end_time = time.time()
